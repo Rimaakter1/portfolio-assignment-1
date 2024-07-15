@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     margin-top: 110px;
+    margin-bottom: 62px;
+
 }
 
 .about-me-title {
@@ -11,6 +13,7 @@
     line-height: 47px;
     letter-spacing: -1.5%;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 
 .about-me-desc {
@@ -21,6 +24,110 @@
     letter-spacing: 3%;
 }
 
-.experience-details i {
+.rating {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rating i {
     color: rgb(253, 133, 58);
+    margin-left: 5px;
+}
+
+.experience-title {
+    color: var(--font-primary-color);
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -1.5%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.experience {
+    color: var(--font-primary-color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -1.5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* my experience style  */
+
+.my-experience-section {
+    background: linear-gradient(-87.34deg, rgba(255, 177, 71, 0.1) 5.887%, rgba(255, 108, 99, 0.1) 50.525%, rgba(184, 106, 223, 0.1) 91.686%);
+    padding: 120px 0;
+    margin-bottom: 179px;
+}
+
+.my-experience-container {
+    display: flex;
+    gap: 80px;
+}
+
+.my-experience-subtitle,
+.my-experience-description {
+    color: var(--font-primary-color);
+    font-size: 14px;
+}
+
+.my-experience-subtitle {
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 14px;
+    margin-top: 70px;
+}
+
+.my-experience-content h1 {
+    color: var(--font-primary-color);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.my-experience-description {
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.my-experience-details {
+    border-bottom: 1px solid var(--font-primary-color);
+
+}
+
+.experience-duration {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 18px;
+}
+
+.experience-duration h5 {
+    color: var(--font-primary-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.experience-duration h6 {
+    color: var(--font-primary-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+.my-experience-details h1 {
+    color: var(--font-primary-color);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
 }

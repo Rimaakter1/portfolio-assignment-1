@@ -77,6 +77,11 @@
     margin-bottom: 12px;
 }
 
+.sparkles {
+    margin: 0 20px;
+}
+
+
 .banner-section-details span {
     color: var(--font-and-background-color);
 }
@@ -109,13 +114,13 @@
     display: flex;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50px;
-    padding: 10px;
+    padding: 12px;
     backdrop-filter: blur(15px);
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     border: 1px solid var(--font-primary-color);
     margin: 32px 0px;
-    width: 58%;
+    width: fit-content;
 }
 
 .portfolio-option-container {
@@ -152,6 +157,6 @@
 
 }
 
-.banner-image-container img {
+/* .banner-image-container img {
     width: 90%;
-}
+} */
