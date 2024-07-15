@@ -1,0 +1,51 @@
+/* navbar style starts here  */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.navbar-container h2 {
+    color: var(--font-and-background-color);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.nav-option-container {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.nav-option-container li {
+    list-style: none;
+}
+
+.nav-option-container a {
+    text-decoration: none;
+    color: var(--font-primary-color);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.nav-option-container button {
+    background-color: var(--font-and-background-color);
+    color: var(--font-primary-color);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    padding: 11px 19px;
+}
+
+.star {
+    background: rgb(253, 133, 58);
+    width: 34px;
+    height: 34px;
+    /* Inside Auto Layout */
+
+    margin: 0px 20px;
+    transform: rotate(-3.97deg);
+}
