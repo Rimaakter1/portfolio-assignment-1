@@ -1,6 +1,7 @@
 /* font-style  */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+
 :root {
     --background-color: rgb(30, 30, 30);
     --font-primary-color: rgb(255, 255, 255);
@@ -18,9 +19,16 @@
     box-sizing: border-box;
 }
 
+
 body {
     background-color: var(--background-color);
     border: 1px solid red;
+}
+
+/* shared styles  */
+
+.half-div {
+    width: 50%;
 }
 
 .container {

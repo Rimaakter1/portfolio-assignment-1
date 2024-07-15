@@ -2,13 +2,25 @@
     .navbar-container {
         flex-direction: column;
         align-items: flex-start;
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     .nav-option-container {
         flex-direction: column;
         align-items: flex-start;
         margin-top: 10px;
+    }
+
+    .banner-section-container {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
 
     }
+
+    .half-div,
+    .banner-image-container img {
+        width: 100%;
+    }
+
 }

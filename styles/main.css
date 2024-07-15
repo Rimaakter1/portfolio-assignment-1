@@ -1,0 +1,26 @@
+.about-me-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+
+.about-me-title {
+    color: var(--font-primary-color);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 47px;
+    letter-spacing: -1.5%;
+    text-transform: uppercase;
+}
+
+.about-me-desc {
+    color: var(--font-secondary-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 3%;
+}
+
+.experience-details i {
+    color: rgb(253, 133, 58);
+}
