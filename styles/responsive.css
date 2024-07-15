@@ -25,8 +25,15 @@
     .banner-section-container {
         flex-direction: column;
         align-items: flex-start;
-        margin-left: 20px;
 
+    }
+
+    .banner-section-details {
+        margin-left: 20px;
+    }
+
+    .banner-image-container {
+        margin: 0;
     }
 
     /* about me section  */
@@ -42,14 +49,39 @@
     }
 
 
-    .experience-details .rating {
+    .rating {
         justify-content: flex-start;
     }
 
-    .experience-details p {
+    .experience {
 
         justify-content: flex-start;
     }
+
+
+    /* my experience section  */
+
+    .my-experience-section {
+        padding: 50px 20px;
+
+    }
+
+    .my-experience-container {
+        flex-direction: column;
+    }
+
+
+    .my-experience-details-container {
+        width: fit-content;
+
+    }
+
+    .experience-duration {
+        flex-direction: column;
+
+    }
+
+
 
 
 }
