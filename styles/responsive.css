@@ -7,6 +7,10 @@
         width: 90%;
     }
 
+    .section-title {
+        font-size: 30px;
+    }
+
 
 
     /* navbar  */
@@ -157,9 +161,14 @@
 
     }
 
-    .first-project-container,
-    .second-project-container {
-        margin: 40px 0 30px 20px;
+    .project-snapshot {
+        width: 100%;
+
+    }
+
+    .project-content {
+        width: 90%;
+        margin-left: 20px;
     }
 
 
