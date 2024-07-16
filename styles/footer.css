@@ -1,9 +1,9 @@
-.footer-section {
+.footer-container {
     background-color: rgb(0, 0, 0);
     text-align: center;
 }
 
-.footer-section h1 {
+.footer-container h1 {
     color: var(--font-and-background-color);
     font-size: 64px;
     font-weight: 700;
@@ -26,4 +26,24 @@
     line-height: 32px;
     letter-spacing: 3%;
     text-decoration: none;
+}
+
+.footer-social-icons i {
+    font-size: 32px;
+    color: var(--font-primary-color);
+    margin-right: 26px;
+    margin-bottom: 60px;
+}
+
+.footer-content {
+    text-align: center;
+    padding: 26px 0;
+}
+
+.footer-content p {
+    color: var(--font-primary-color);
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 32px;
+
 }

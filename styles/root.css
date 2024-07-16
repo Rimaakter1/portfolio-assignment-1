@@ -65,3 +65,7 @@ body {
     line-height: 21px;
     letter-spacing: 3%;
 }
+
+.text-font-style {
+    color: var(--font-and-background-color);
+}
