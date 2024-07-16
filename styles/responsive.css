@@ -165,6 +165,12 @@
 
 
     /* contact section  */
+
+    .contact-details {
+        width: 90%;
+        margin: 0 0 0 20px;
+    }
+
     .input-field-flexed {
         flex-direction: column;
     }
