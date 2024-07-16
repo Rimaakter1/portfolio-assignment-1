@@ -28,10 +28,6 @@ body {
 
 /* shared styles  */
 
-.half-div {
-    width: 50%;
-}
-
 .container {
     max-width: 1041px;
     margin: 0 auto;

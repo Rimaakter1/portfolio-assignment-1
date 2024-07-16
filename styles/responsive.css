@@ -1,65 +1,79 @@
 @media screen and (max-width:576px) {
 
     /* common style  */
-    .section-title-container {
-        text-align: start;
+    .section-title-container,
+    .award-details,
+    .project-content,
+    .contact-details {
+
         margin: 0 0 0 20px;
         width: 90%;
+    }
+
+    .section-title-container {
+        text-align: start;
+
     }
 
     .section-title {
         font-size: 30px;
     }
 
-
-
-    /* navbar  */
     .navbar-container,
-    .about-me-container {
+    .about-me-container,
+    .nav-option-container,
+    .banner-section-container,
+    .skills-container,
+    .my-experience-container,
+    .experience-duration,
+    .flexed-display,
+    .projects-list,
+    .first-project-container,
+    .input-field-flexed,
+    .footer-options {
         flex-direction: column;
+    }
+
+    .navbar-container,
+    .about-me-container,
+    .nav-option-container,
+    .banner-section-container,
+    .skills-container,
+    .projects-list {
         align-items: flex-start;
+    }
+
+    .navbar-container,
+    .about-me-container,
+    .banner-section-details {
         margin-left: 20px;
     }
 
+    .my-experience-content,
+    .award-details-container,
+    .award-details>div,
+    .project-snapshot {
+        width: 100%;
+    }
+
+
+    /* navbar styles  */
     .nav-option-container {
-        flex-direction: column;
-        align-items: flex-start;
         margin-top: 10px;
     }
 
     /* banner section  */
 
-    .banner-section-container {
-        flex-direction: column;
-        align-items: flex-start;
-
-    }
-
-    .banner-section-details {
-        margin-left: 20px;
-    }
-
-
-    .skills-container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
     .banner-image-container {
-        margin: 0;
         width: 100%;
-
-    }
-
-    .banner-image-container img {
-        width: 100%;
+        height: 100%;
     }
 
     /* about me section  */
 
+
     .about-me-container {
-        flex-direction: column;
-        align-items: flex-start;
+        margin-top: 80px;
     }
 
     .about-me-content {
@@ -68,92 +82,47 @@
 
     .about-me-desc {
         margin-bottom: 30px;
-
-
     }
 
-
-    .rating {
-        justify-content: flex-start;
-    }
-
+    .rating,
     .experience {
-
         justify-content: flex-start;
     }
-
 
     /* my experience section  */
 
     .my-experience-section {
         padding: 50px 20px;
+        margin-bottom: 50px;
 
     }
 
     .my-experience-container {
-        flex-direction: column;
-    }
-
-    .my-experience-content {
-        width: 100%;
+        gap: 30px;
     }
 
     .my-experience-details-container {
         width: fit-content;
-
     }
 
-    .experience-duration {
-        flex-direction: column;
-
+    .my-experience-subtitle {
+        margin-top: 0px;
     }
 
     /* award section style  */
 
-    .flexed-display {
-        flex-direction: column;
-    }
-
-
-
-    .award-content-container p {
-        font-size: 11px;
-
-    }
-
-    .award-details-container {
-        width: 100%;
-
+    .award-details-container h4 {
+        margin-top: 20px;
     }
 
     .award-details {
         padding: 20px 0;
-        width: 90%;
-        margin-left: 20px;
-
-    }
-
-    .award-details>div {
-        width: 100%;
-    }
-
-    .award-details-container h4 {
-        font-size: 11px;
-
     }
 
     .projects-list {
         margin-left: 25px;
         margin-bottom: 48px;
-        flex-direction: column;
-        align-items: flex-start;
         gap: 15px;
-    }
-
-
-    .first-project-container {
-        flex-direction: column;
-
     }
 
     .second-project-container {
@@ -161,33 +130,23 @@
 
     }
 
-    .project-snapshot {
-        width: 100%;
-
+    /* portfolio  */
+    .my-profile-section-container {
+        margin-top: 50px;
     }
 
-    .project-content {
-        width: 90%;
-        margin-left: 20px;
+    .first-project-container h5,
+    .second-project-container h5 {
+        margin-top: 25px;
     }
 
-
-
-    /* contact section  */
-
-    .contact-details {
-        width: 90%;
-        margin: 0 0 0 20px;
+    .contact-section {
+        margin-top: 60px;
+        margin-bottom: 50px;
     }
 
-    .input-field-flexed {
-        flex-direction: column;
+    .footer-container h1 {
+        padding-top: 50px;
+        font-size: 50px;
     }
-
-    /* footer section  */
-
-    .footer-options {
-        flex-direction: column;
-    }
-
 }

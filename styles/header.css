@@ -44,8 +44,6 @@
     background: rgb(253, 133, 58);
     width: 34px;
     height: 34px;
-    /* Inside Auto Layout */
-
     margin: 0px 20px;
     transform: rotate(-3.97deg);
 }
@@ -63,7 +61,7 @@
 
 .banner-section-details {
 
-    margin-top: 20px;
+    margin-top: 25px;
 
 }
 
@@ -163,9 +161,3 @@
     width: 100%;
 
 }
-
-
-
-/* .banner-image-container img {
-    width: 90%;
-} */
