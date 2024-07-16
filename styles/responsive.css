@@ -81,7 +81,32 @@
 
     }
 
+    /* award section style  */
 
+    .flexed-display {
+        flex-direction: column;
+    }
+
+    .award-content-container {
+        margin: 0 0 0 20px;
+        text-align: start;
+    }
+
+    .award-content-container p {
+        font-size: 11px;
+
+    }
+
+    .award-details {
+        padding: 20px 0;
+        width: 929px;
+        margin: 0 0 0 20px;
+    }
+
+    .award-details-container h4 {
+        font-size: 11px;
+
+    }
 
 
 }

@@ -37,3 +37,8 @@ body {
     width: 1041px;
     margin: 0 auto;
 }
+
+.flexed-display {
+    display: flex;
+    justify-content: space-between;
+}
