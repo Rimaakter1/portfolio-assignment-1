@@ -146,28 +146,12 @@
 /* start section styles  */
 
 
-.award-content-container {
-    width: 541px;
-    margin: 0 auto;
-    text-align: center;
-}
 
 .award-content-container h1 {
-    color: var(--font-primary-color);
-    font-size: 40px;
-    font-weight: 800;
-    line-height: 47px;
-    letter-spacing: -1.5%;
-    text-transform: uppercase;
     margin-bottom: 17px;
 }
 
 .award-content-container p {
-    color: var(--font-secondary-color);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 3%;
     margin-bottom: 39px;
 
 }
@@ -204,4 +188,185 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+}
+
+
+/* my profile section styles  */
+
+.my-profile-section-container {
+    margin-top: 159px;
+}
+
+.portfolio-details h1 {
+    margin-bottom: 19px;
+}
+
+.portfolio-details p {
+    margin-bottom: 48px;
+}
+
+.projects-list {
+
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.projects-list button {
+    padding: 10px 20px 10px 20px;
+    border: 0.4px solid rgb(84, 84, 84);
+    background: rgb(0, 0, 0);
+    color: var(--font-primary-color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 3%;
+
+}
+
+.projects-list .web-design-btn {
+
+    background: rgb(253, 111, 0);
+}
+
+.first-project-container,
+.second-project-container {
+    display: flex;
+    gap: 36px;
+    margin-bottom: 60px;
+}
+
+.project-snapshot {
+    position: relative;
+    background: rgb(0, 0, 0);
+    width: 40%;
+    height: 334px;
+    padding-left: 20px;
+    padding-right: -100px;
+
+}
+
+.first-project-img-1 {
+    position: relative;
+    z-index: 1;
+    top: 70px;
+
+}
+
+.first-project-img-2 {
+    position: absolute;
+    left: 100px;
+
+
+}
+
+
+.first-project-container h5,
+.second-project-container h5 {
+    color: var(--font-primary-color);
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 40px;
+}
+
+
+.first-project-container h5,
+.second-project-container h5,
+.firs-project-container h1,
+.second-project-container h1 {
+    margin-bottom: 22px;
+}
+
+.first-project-container p,
+.second-project-container p {
+    margin-bottom: 12px;
+}
+
+
+/* contact styles  */
+.contact-section {
+    margin-top: 140px;
+    margin-bottom: 115px;
+}
+
+.contact-content {
+    width: 297px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-content h5 {
+    color: var(--font-primary-color);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 16px;
+
+}
+
+.contact-content {
+    margin-bottom: 48px;
+}
+
+.contact-details-container {
+    background: rgba(253, 111, 0, 0.1);
+    padding-bottom: 60px;
+}
+
+.contact-details {
+    width: 811.87px;
+    margin: 0 auto;
+}
+
+.contact-details h1 {
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+
+.input-field-flexed {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 50px;
+}
+
+.contact-details input[type=text],
+.contact-details input[type=email],
+.contact-details textarea {
+    color: var(--font-primary-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1.5px solid var(--font-primary-color);
+    width: 100%;
+    padding: 10px;
+}
+
+.contact-details input[type=submit] {
+    padding: 11px 19px;
+    background: rgb(253, 111, 0);
+    color: var(--font-primary-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border: none;
+}
+
+.contact-details textarea {
+    display: block;
+}
+
+.file-link {
+    color: var(--font-primary-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    margin-top: 16px;
+    margin-bottom: 30px;
 }

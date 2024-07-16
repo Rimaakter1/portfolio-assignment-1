@@ -17,7 +17,7 @@
     font-family: "Rubik", sans-serif;
     font-weight: 400;
     box-sizing: border-box;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 
@@ -41,4 +41,27 @@ body {
 .flexed-display {
     display: flex;
     justify-content: space-between;
+}
+
+.section-title-container {
+    text-align: center;
+    width: 541px;
+    margin: 0 auto;
+}
+
+.section-title {
+    color: var(--font-primary-color);
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 47px;
+    letter-spacing: -1.5%;
+    text-transform: uppercase;
+}
+
+.section-description {
+    color: var(--font-secondary-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 3%;
 }

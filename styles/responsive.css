@@ -5,6 +5,12 @@
         width: 100%;
     }
 
+    .section-title-container {
+        text-align: start;
+        margin: 0 0 0 20px;
+    }
+
+
 
     /* navbar  */
     .navbar-container,
@@ -87,19 +93,21 @@
         flex-direction: column;
     }
 
-    .award-content-container {
-        margin: 0 0 0 20px;
-        text-align: start;
-    }
+
 
     .award-content-container p {
         font-size: 11px;
 
     }
 
+    .award-details-container {
+        width: 47%;
+
+    }
+
     .award-details {
         padding: 20px 0;
-        width: 929px;
+        width: 90%;
         margin: 0 0 0 20px;
     }
 
@@ -108,5 +116,35 @@
 
     }
 
+    .projects-list {
+        margin-left: 25px;
+        margin-bottom: 48px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+
+    .first-project-container {
+        flex-direction: column;
+
+    }
+
+    .second-project-container {
+        flex-direction: column-reverse;
+
+    }
+
+    .first-project-container,
+    .second-project-container {
+        margin: 40px 0 30px 20px;
+    }
+
+
+
+    /* contact section  */
+    .input-field-flexed {
+        flex-direction: column;
+    }
 
 }
