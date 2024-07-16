@@ -150,9 +150,21 @@
 }
 
 .banner-image-container {
-    width: 538px;
+
+    width: 600px;
+    height: 450px;
+    background-color: black;
+    border-radius: 50%;
+    box-shadow: inset 1px 6px 4px 2px rgb(255, 130, 51);
+}
+
+.banner-image-container img {
+
+    width: 100%;
 
 }
+
+
 
 /* .banner-image-container img {
     width: 90%;

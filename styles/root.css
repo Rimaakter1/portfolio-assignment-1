@@ -7,8 +7,7 @@
     --font-primary-color: rgb(255, 255, 255);
     --font-secondary-color: rgba(255, 255, 255, 0.5);
     --font-and-background-color: rgb(253, 111, 0);
-
-
+    --font-color: linear-gradient(to right, red, purple);
 }
 
 * {
