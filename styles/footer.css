@@ -22,7 +22,6 @@
 .footer-options a {
     color: var(--font-primary-color);
     font-size: 19px;
-    font-weight: 400;
     line-height: 32px;
     letter-spacing: 3%;
     text-decoration: none;
@@ -43,7 +42,6 @@
 .footer-content p {
     color: var(--font-primary-color);
     font-size: 21px;
-    font-weight: 400;
     line-height: 32px;
 
 }

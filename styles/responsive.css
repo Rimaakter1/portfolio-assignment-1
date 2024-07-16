@@ -69,6 +69,10 @@
         height: 100%;
     }
 
+    .skills-div {
+        display: none;
+    }
+
     /* about me section  */
 
 

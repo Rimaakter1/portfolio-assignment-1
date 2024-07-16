@@ -1,7 +1,7 @@
 .about-me-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 110px;
+    margin-top: 117px;
     margin-bottom: 62px;
 
 }
@@ -23,10 +23,8 @@
 .about-me-desc {
     color: var(--font-secondary-color);
     font-size: 16px;
-    font-weight: 400;
     line-height: 21px;
     letter-spacing: 3%;
-
     text-align: justify;
 }
 
@@ -53,7 +51,6 @@
 .experience {
     color: var(--font-primary-color);
     font-size: 20px;
-    font-weight: 400;
     line-height: 100%;
     letter-spacing: -1.5%;
     display: flex;
@@ -101,7 +98,7 @@
 }
 
 .my-experience-description {
-    font-weight: 400;
+
     line-height: 28px;
     text-align: justify;
 }
@@ -134,7 +131,6 @@
 .experience-duration h6 {
     color: var(--font-primary-color);
     font-size: 14px;
-    font-weight: 400;
     line-height: 24px;
 }
 
@@ -189,7 +185,6 @@
 
 .award-details-container h2 {
     font-size: 22px;
-    font-weight: 400;
     margin-bottom: 24px;
 }
 
@@ -202,7 +197,6 @@
 .award-details-container p {
     color: var(--font-secondary-color);
     font-size: 16px;
-    font-weight: 400;
     line-height: 28px;
 
 }
@@ -236,7 +230,6 @@
     background: rgb(0, 0, 0);
     color: var(--font-primary-color);
     font-size: 20px;
-    font-weight: 400;
     line-height: 36px;
     letter-spacing: 3%;
 
