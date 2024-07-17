@@ -315,12 +315,23 @@
 
 .contact-details-container {
     background: rgba(253, 111, 0, 0.1);
-    padding-bottom: 60px;
+    padding: 20px 30px 60px 30px;
+    /* padding-bottom: 60px; */
+    display: flex;
+    gap: 60px;
 }
 
 .contact-details {
-    width: 811.87px;
-    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: rgba(255, 255, 255, 0.219);
+    backdrop-filter: blur(80px);
+    border-radius: 10px;
+    padding: 0px 40px 40px 40px;
+    width: 60%;
+    /* margin: 0 auto; */
+
+
 }
 
 .contact-details h1 {
@@ -371,4 +382,38 @@
     opacity: 0.8;
     margin-top: 16px;
     margin-bottom: 30px;
+}
+
+
+.direct-contact {
+    margin-top: 130px;
+    width: 40%;
+
+    /* text-align: center; */
+}
+
+.direct-contact h1 {
+    font-size: 30px;
+    color: var(--font-primary-color);
+    margin-bottom: 20px;
+}
+
+address {
+    margin-top: 10px;
+    color: var(--font-primary-color);
+}
+
+address i {
+    font-size: 22px;
+    color: rgba(253, 110, 0, 0.913);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+address a {
+    font-size: 20px;
+    color: var(--font-primary-color);
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
 }
